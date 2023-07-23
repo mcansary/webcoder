@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>タグの練習</title>
+    </head>
+    <body>
+        <!-- ここから見出し -->
+        <h1>見出し１</h1>
+        <h2>見出し２</h2>
+        <h3>見出し３</h3>
+        <h4>見出し４</h4>
+        <h5>見出し５</h5>
+        <h6>見出し６</h6>
+        
+        <p>これは段落です。改行しません。</p>
+        <p>これは段落です。<br>改行します。</p>
+        <a href="link.html">リンクテキスト</a>
+        
+        <ul>
+            <li>項目</li>
+            <li>項目</li>
+            <li>項目</li>
+        </ul>
+        <ol>
+            <li>項目</li>
+            <li>項目</li>
+            <li>項目</li>
+        </ol>
+        
+        <dl>
+            <dt>定義する用語</dt>
+            <dd>定義する用語の説明</dd>
+            <dt>用語</dt>
+            <dd>説明１</dd>
+            <dd>説明２</dd>
+            <dd>説明３</dd>
+        </dl>
+        
+        <img src="image.png" alt="代替テキスト" width="300" height="300">
+        
+        <p>この部分を<span>赤</span>で表示</p>
+        <p>この部分が<strong>重要</strong>です</p>
+        <address>
+            名前 :aaa<br>
+            Email:aaa@a.a
+        </address>
+        <small>&copy;コピーライト</small><br>
+        <time datetime="2023-07-21">2023年7月21日</time><br>
+        <time datetime="2023-07-21 18:44">2023年7月21日午後6時44分</time><br>
+        <figure>
+            <img src="image2.png" alt="figure" width="300">
+            <figcaption>図の説明</figcaption>
+        </figure>
+        <table border="1" width="500" height="200">
+            <caption>果物の値段と特徴です。</caption>
+            <thead>
+            <tr>
+                <th scope="col">種類</th>
+                <th scope="col">値段</th>
+                <th scope="col">説明</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr align="left">
+                <th scope="row">いちご </th>
+                <td>100円</td>
+                <td>ケーキによく合います</td>
+            </tr>
+            <tr align="center">
+                <th scope="row">みかん</th>
+                <td>200円</td>
+                <td>甘くてすっぱいです</td>
+            </tr>
+            <tr align="right">
+                <th scope="row">りんご</th>
+                <td>300円</td>
+                <td>赤くてまるいです</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">詰め合わせ</th>
+                <td>150円</td>
+                <td>いちごとみかんの詰め合わせ</td>
+            </tr>
+            <tr>
+                <td>250円</td>
+                <td>みかんとりんごの詰め合わせ</td>
+            </tr>
+            <tr>
+                <td colspan="2">りんごといちごの詰め合わせは300円です</td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <script>
+            JavaScriptコンテンツ
+        </script>
+        <noscript>
+            代替コンテンツ
+        </noscript>
+    </body>
+</html>
